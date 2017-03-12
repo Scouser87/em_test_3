@@ -174,7 +174,7 @@ Module['FS_createPath']('/resources', 'shaders', true, true);
   }
 
  }
- loadPackage({"files": [{"audio": 0, "start": 0, "crunched": 0, "end": 6148, "filename": "/resources/.DS_Store"}, {"audio": 0, "start": 6148, "crunched": 0, "end": 178864, "filename": "/resources/2.png"}, {"audio": 0, "start": 178864, "crunched": 0, "end": 184322, "filename": "/resources/cheat_btn.png"}, {"audio": 0, "start": 184322, "crunched": 0, "end": 283672, "filename": "/resources/Coin2.png"}, {"audio": 0, "start": 283672, "crunched": 0, "end": 520359, "filename": "/resources/HH_hint.png"}, {"audio": 0, "start": 520359, "crunched": 0, "end": 520374, "filename": "/resources/test.txt"}, {"audio": 0, "start": 520374, "crunched": 0, "end": 520461, "filename": "/resources/shaders/DefaultColor.fsh"}, {"audio": 0, "start": 520461, "crunched": 0, "end": 520632, "filename": "/resources/shaders/DefaultColor.vsh"}, {"audio": 0, "start": 520632, "crunched": 0, "end": 520782, "filename": "/resources/shaders/DefaultTexture.fsh"}, {"audio": 0, "start": 520782, "crunched": 0, "end": 521090, "filename": "/resources/shaders/DefaultTexture.vsh"}], "remote_package_size": 521090, "package_uuid": "ef38cf0c-3fc1-4d06-a69a-c0b8a567659d"});
+ loadPackage({"files": [{"audio": 0, "start": 0, "crunched": 0, "end": 6148, "filename": "/resources/.DS_Store"}, {"audio": 0, "start": 6148, "crunched": 0, "end": 178864, "filename": "/resources/2.png"}, {"audio": 0, "start": 178864, "crunched": 0, "end": 184322, "filename": "/resources/cheat_btn.png"}, {"audio": 0, "start": 184322, "crunched": 0, "end": 283672, "filename": "/resources/Coin2.png"}, {"audio": 0, "start": 283672, "crunched": 0, "end": 520359, "filename": "/resources/HH_hint.png"}, {"audio": 0, "start": 520359, "crunched": 0, "end": 520374, "filename": "/resources/test.txt"}, {"audio": 0, "start": 520374, "crunched": 0, "end": 520461, "filename": "/resources/shaders/DefaultColor.fsh"}, {"audio": 0, "start": 520461, "crunched": 0, "end": 520632, "filename": "/resources/shaders/DefaultColor.vsh"}, {"audio": 0, "start": 520632, "crunched": 0, "end": 520782, "filename": "/resources/shaders/DefaultTexture.fsh"}, {"audio": 0, "start": 520782, "crunched": 0, "end": 521090, "filename": "/resources/shaders/DefaultTexture.vsh"}], "remote_package_size": 521090, "package_uuid": "ec19922d-1bfd-4e75-8c25-6f2f1ac7efd0"});
 
 })();
 
@@ -10799,24 +10799,6 @@ function __Z27emscripten_result_to_stringi($result) {
  $20 = $0;
  STACKTOP = sp;return ($20|0);
 }
-function __ZN12MouseHandler12SetCanvasPosEff($this,$x,$y) {
- $this = $this|0;
- $x = +$x;
- $y = +$y;
- var $0 = 0, $1 = 0.0, $2 = 0.0, $3 = 0, $4 = 0.0, $5 = 0.0, $6 = 0, label = 0, sp = 0;
- sp = STACKTOP;
- STACKTOP = STACKTOP + 16|0; if ((STACKTOP|0) >= (STACK_MAX|0)) abort();
- $0 = $this;
- $1 = $x;
- $2 = $y;
- $3 = $0;
- $4 = $1;
- HEAPF32[$3>>2] = $4;
- $5 = $2;
- $6 = ((($3)) + 4|0);
- HEAPF32[$6>>2] = $5;
- STACKTOP = sp;return;
-}
 function __Z19mouse_down_callbackiPK20EmscriptenMouseEventPv($eventType,$e,$userData) {
  $eventType = $eventType|0;
  $e = $e|0;
@@ -10900,6 +10882,24 @@ function __Z19mouse_down_callbackiPK20EmscriptenMouseEventPv($eventType,$e,$user
  $45 = $mHandler;
  __ZN12MouseHandler8SetStateENS_11eMouseStateE($45,1);
  STACKTOP = sp;return 1;
+}
+function __ZN12MouseHandler12SetCanvasPosEff($this,$x,$y) {
+ $this = $this|0;
+ $x = +$x;
+ $y = +$y;
+ var $0 = 0, $1 = 0.0, $2 = 0.0, $3 = 0, $4 = 0.0, $5 = 0.0, $6 = 0, label = 0, sp = 0;
+ sp = STACKTOP;
+ STACKTOP = STACKTOP + 16|0; if ((STACKTOP|0) >= (STACK_MAX|0)) abort();
+ $0 = $this;
+ $1 = $x;
+ $2 = $y;
+ $3 = $0;
+ $4 = $1;
+ HEAPF32[$3>>2] = $4;
+ $5 = $2;
+ $6 = ((($3)) + 4|0);
+ HEAPF32[$6>>2] = $5;
+ STACKTOP = sp;return;
 }
 function __Z17mouse_up_callbackiPK20EmscriptenMouseEventPv($eventType,$e,$userData) {
  $eventType = $eventType|0;
