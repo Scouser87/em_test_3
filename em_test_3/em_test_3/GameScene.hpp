@@ -23,7 +23,6 @@ public:
     void Update(float dt);
     
 private:
-    CSprite* sp;
 };
 
 #endif /* GameScene_hpp */

@@ -20,6 +20,7 @@ class CActionMngr;
 class CNode;
 class CShaderManager;
 class MouseHandler;
+class CTexturePackerManager;
 
 class CDirector
 {
@@ -31,6 +32,7 @@ class CDirector
 public:
     static CDirector&           GetDirector();
     static CActionMngr&         GetActionManager();
+    static CTexturePackerManager*        GetPackerManager();
     
     void            Init(float x, float y);
     void			Update();
@@ -54,6 +56,7 @@ private:
     CActionMngr*        m_actionMngr;
     CShaderManager*     m_shaderMngr;
     MouseHandler*       m_mouseHandler;
+    CTexturePackerManager* m_packerMngr;
     
     CNode*              m_root;
     std::set<CNode*>    m_nodesToDelete;

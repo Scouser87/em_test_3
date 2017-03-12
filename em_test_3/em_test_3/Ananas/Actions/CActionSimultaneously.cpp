@@ -8,6 +8,7 @@
  */
 
 #include "CActionSimultaneously.h"
+#include <stdarg.h>
 
 CActionSimultaneously::CActionSimultaneously(CAction* first, CAction* next, ...)
 {

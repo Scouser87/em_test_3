@@ -9,20 +9,21 @@
 #include "FileLoader.hpp"
 #include <stdlib.h>
 #include <GLES/gl.h>
+#include <math.h>
 #include "png.h"
 #include "pngstruct.h"
 
-std::string gReadFile(const char* fileName, const char* params)
+std::string gReadFile(std::string fileName, const char* params)
 {
     FILE * pFile;
     long lSize;
     std::string str_result("");
     size_t result;
     
-    pFile = fopen ( fileName , "rb" );
+    pFile = fopen ( fileName.c_str() , "rb" );
     if (pFile==NULL)
     {
-        printf("File %s error\n", fileName);
+        printf("File %s error\n", fileName.c_str());
         fclose (pFile);
         return "";
     }
@@ -38,7 +39,7 @@ std::string gReadFile(const char* fileName, const char* params)
     result = fread (&str_result[0], 1, lSize, pFile);
     if (result != lSize)
     {
-        printf ("Reading error, file %s\n", fileName);
+        printf ("Reading error, file %s\n", fileName.c_str());
         fclose (pFile);
         return "";
     }
@@ -49,6 +50,31 @@ std::string gReadFile(const char* fileName, const char* params)
     fclose (pFile);
     
     return str_result;
+}
+
+bool IsFileExist(std::string fileName)
+{
+    if (FILE *file = fopen(fileName.c_str(), "r")) {
+        fclose(file);
+        return true;
+    } else {
+        return false;
+    }
+}
+
+#define MIN(a,b) (((a)<(b))?(a):(b))
+#define MAX(a,b) (((a)>(b))?(a):(b))
+
+std::string GetFolder(const std::string& _path, bool shouldLeaveSeparator)
+{
+    size_t lastDirSeparator1 = _path.rfind(L'\\');
+    size_t lastDirSeparator2 = _path.rfind(L'/');
+    size_t lastDirSeparator = (lastDirSeparator1 != std::string::npos) ? (lastDirSeparator2 != std::string::npos ? MAX(lastDirSeparator1, lastDirSeparator2) : lastDirSeparator1) : lastDirSeparator2;
+    
+    if (lastDirSeparator == std::string::npos)
+        return std::string(_path);
+    
+    return _path.substr( 0, lastDirSeparator + (shouldLeaveSeparator ? 1 : 0));
 }
 
 unsigned int png_texture_load(const char * file_name, int & width, int & height)

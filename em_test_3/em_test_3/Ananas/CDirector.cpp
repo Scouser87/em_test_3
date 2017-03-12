@@ -21,6 +21,7 @@
 #include "CNode.h"
 #include "ShaderManager.hpp"
 #include "MouseHandler.hpp"
+#include "TexturePackerLoader.h"
 
 CDirector* CDirector::s_director = NULL;
 
@@ -31,6 +32,7 @@ CDirector::CDirector()
     m_actionMngr = new CActionMngr;
     m_shaderMngr = new CShaderManager;
     m_mouseHandler = new MouseHandler;
+    m_packerMngr = new CTexturePackerManager;
     CDirector::s_director = this;
 }
 
@@ -52,6 +54,11 @@ CDirector& CDirector::GetDirector()
 CActionMngr& CDirector::GetActionManager()
 {
     return *GetDirector().m_actionMngr;
+}
+
+CTexturePackerManager* CDirector::GetPackerManager()
+{
+    return GetDirector().m_packerMngr;
 }
 
 void CDirector::Init(float x, float y)

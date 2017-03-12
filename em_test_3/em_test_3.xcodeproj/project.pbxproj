@@ -179,6 +179,24 @@
 		856389B21E7565AE00CDE5BA /* Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389B01E7565AE00CDE5BA /* Render.cpp */; };
 		856389B51E75A34400CDE5BA /* CActionModifiers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389B31E75A34400CDE5BA /* CActionModifiers.cpp */; };
 		856389B81E75A76600CDE5BA /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389B61E75A76600CDE5BA /* GameScene.cpp */; };
+		856389BC1E75D45100CDE5BA /* GraphicsLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389BA1E75D45100CDE5BA /* GraphicsLoader.cpp */; };
+		856389BF1E75D95000CDE5BA /* CButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389BD1E75D95000CDE5BA /* CButton.cpp */; };
+		856389C81E75D9BE00CDE5BA /* CActionRunEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389C01E75D9BE00CDE5BA /* CActionRunEvent.cpp */; };
+		856389C91E75D9BE00CDE5BA /* CActionSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389C21E75D9BE00CDE5BA /* CActionSequence.cpp */; };
+		856389CA1E75D9BE00CDE5BA /* CActionSimultaneously.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389C41E75D9BE00CDE5BA /* CActionSimultaneously.cpp */; };
+		856389CB1E75D9BE00CDE5BA /* CActionWaiting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389C61E75D9BE00CDE5BA /* CActionWaiting.cpp */; };
+		856389CE1E75DC3900CDE5BA /* CActionRepeate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389CC1E75DC3900CDE5BA /* CActionRepeate.cpp */; };
+		856389D21E75DE5600CDE5BA /* Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389D01E75DE5600CDE5BA /* Element.cpp */; };
+		856389D51E75E00200CDE5BA /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389D31E75E00200CDE5BA /* Utils.cpp */; };
+		856389ED1E75E2F300CDE5BA /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389DF1E75E2F300CDE5BA /* json_reader.cpp */; };
+		856389EE1E75E2F300CDE5BA /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389E01E75E2F300CDE5BA /* json_value.cpp */; };
+		856389EF1E75E2F300CDE5BA /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389E21E75E2F300CDE5BA /* json_writer.cpp */; };
+		856389F01E75E2F300CDE5BA /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389E71E75E2F300CDE5BA /* tinystr.cpp */; };
+		856389F11E75E2F300CDE5BA /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389E91E75E2F300CDE5BA /* tinyxml.cpp */; };
+		856389F21E75E2F300CDE5BA /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389EB1E75E2F300CDE5BA /* tinyxmlerror.cpp */; };
+		856389F31E75E2F300CDE5BA /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389EC1E75E2F300CDE5BA /* tinyxmlparser.cpp */; };
+		856389F81E75E30300CDE5BA /* CAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389F41E75E30300CDE5BA /* CAnimation.cpp */; };
+		856389F91E75E30300CDE5BA /* TexturePackerLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389F61E75E30300CDE5BA /* TexturePackerLoader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -461,6 +479,49 @@
 		856389B41E75A34400CDE5BA /* CActionModifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CActionModifiers.h; sourceTree = "<group>"; };
 		856389B61E75A76600CDE5BA /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
 		856389B71E75A76600CDE5BA /* GameScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameScene.hpp; sourceTree = "<group>"; };
+		856389BA1E75D45100CDE5BA /* GraphicsLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsLoader.cpp; sourceTree = "<group>"; };
+		856389BB1E75D45100CDE5BA /* GraphicsLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GraphicsLoader.hpp; sourceTree = "<group>"; };
+		856389BD1E75D95000CDE5BA /* CButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CButton.cpp; sourceTree = "<group>"; };
+		856389BE1E75D95000CDE5BA /* CButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CButton.h; sourceTree = "<group>"; };
+		856389C01E75D9BE00CDE5BA /* CActionRunEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CActionRunEvent.cpp; sourceTree = "<group>"; };
+		856389C11E75D9BE00CDE5BA /* CActionRunEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CActionRunEvent.h; sourceTree = "<group>"; };
+		856389C21E75D9BE00CDE5BA /* CActionSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CActionSequence.cpp; sourceTree = "<group>"; };
+		856389C31E75D9BE00CDE5BA /* CActionSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CActionSequence.h; sourceTree = "<group>"; };
+		856389C41E75D9BE00CDE5BA /* CActionSimultaneously.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CActionSimultaneously.cpp; sourceTree = "<group>"; };
+		856389C51E75D9BE00CDE5BA /* CActionSimultaneously.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CActionSimultaneously.h; sourceTree = "<group>"; };
+		856389C61E75D9BE00CDE5BA /* CActionWaiting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CActionWaiting.cpp; sourceTree = "<group>"; };
+		856389C71E75D9BE00CDE5BA /* CActionWaiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CActionWaiting.h; sourceTree = "<group>"; };
+		856389CC1E75DC3900CDE5BA /* CActionRepeate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CActionRepeate.cpp; sourceTree = "<group>"; };
+		856389CD1E75DC3900CDE5BA /* CActionRepeate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CActionRepeate.h; sourceTree = "<group>"; };
+		856389D01E75DE5600CDE5BA /* Element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Element.cpp; sourceTree = "<group>"; };
+		856389D11E75DE5600CDE5BA /* Element.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Element.hpp; sourceTree = "<group>"; };
+		856389D31E75E00200CDE5BA /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		856389D41E75E00200CDE5BA /* Utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
+		856389D71E75E2F300CDE5BA /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		856389D81E75E2F300CDE5BA /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		856389D91E75E2F300CDE5BA /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
+		856389DA1E75E2F300CDE5BA /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwards.h; sourceTree = "<group>"; };
+		856389DB1E75E2F300CDE5BA /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		856389DC1E75E2F300CDE5BA /* json_batchallocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_batchallocator.h; sourceTree = "<group>"; };
+		856389DD1E75E2F300CDE5BA /* json_internalarray.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalarray.inl; sourceTree = "<group>"; };
+		856389DE1E75E2F300CDE5BA /* json_internalmap.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalmap.inl; sourceTree = "<group>"; };
+		856389DF1E75E2F300CDE5BA /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_reader.cpp; sourceTree = "<group>"; };
+		856389E01E75E2F300CDE5BA /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
+		856389E11E75E2F300CDE5BA /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
+		856389E21E75E2F300CDE5BA /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
+		856389E31E75E2F300CDE5BA /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		856389E41E75E2F300CDE5BA /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		856389E51E75E2F300CDE5BA /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		856389E71E75E2F300CDE5BA /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		856389E81E75E2F300CDE5BA /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		856389E91E75E2F300CDE5BA /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		856389EA1E75E2F300CDE5BA /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		856389EB1E75E2F300CDE5BA /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		856389EC1E75E2F300CDE5BA /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		856389F41E75E30300CDE5BA /* CAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAnimation.cpp; sourceTree = "<group>"; };
+		856389F51E75E30300CDE5BA /* CAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAnimation.h; sourceTree = "<group>"; };
+		856389F61E75E30300CDE5BA /* TexturePackerLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TexturePackerLoader.cpp; sourceTree = "<group>"; };
+		856389F71E75E30300CDE5BA /* TexturePackerLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexturePackerLoader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -498,6 +559,7 @@
 			children = (
 				856389791E75471D00CDE5BA /* Ananas */,
 				853BA8521E71858200F8504D /* Common */,
+				856389CF1E75DE4D00CDE5BA /* Game */,
 				853BA8481E717E9800F8504D /* main.cpp */,
 				853BA84F1E71807F00F8504D /* Scene.cpp */,
 				853BA8501E71807F00F8504D /* Scene.hpp */,
@@ -510,6 +572,8 @@
 		853BA8521E71858200F8504D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				856389D31E75E00200CDE5BA /* Utils.cpp */,
+				856389D41E75E00200CDE5BA /* Utils.hpp */,
 				853BA8531E71858200F8504D /* algebra3.cpp */,
 				853BA8541E71858200F8504D /* algebra3.h */,
 				853BA8551E71858200F8504D /* imagelib */,
@@ -916,10 +980,18 @@
 		856389791E75471D00CDE5BA /* Ananas */ = {
 			isa = PBXGroup;
 			children = (
+				856389F41E75E30300CDE5BA /* CAnimation.cpp */,
+				856389F51E75E30300CDE5BA /* CAnimation.h */,
+				856389F61E75E30300CDE5BA /* TexturePackerLoader.cpp */,
+				856389F71E75E30300CDE5BA /* TexturePackerLoader.h */,
+				856389D61E75E2F300CDE5BA /* jsoncpp */,
+				856389E61E75E2F300CDE5BA /* xml */,
 				856389B01E7565AE00CDE5BA /* Render.cpp */,
 				856389B11E7565AE00CDE5BA /* Render.hpp */,
 				856389AA1E75633900CDE5BA /* CSprite.cpp */,
 				856389AB1E75633900CDE5BA /* CSprite.h */,
+				856389BD1E75D95000CDE5BA /* CButton.cpp */,
+				856389BE1E75D95000CDE5BA /* CButton.h */,
 				856389A61E75581E00CDE5BA /* pugi */,
 				856389831E7549C100CDE5BA /* Actions */,
 				856389801E75496C00CDE5BA /* CDirector.cpp */,
@@ -933,6 +1005,8 @@
 				856389A41E7554A600CDE5BA /* ShaderManager.hpp */,
 				856389AD1E75639D00CDE5BA /* CImage.cpp */,
 				856389AE1E75639D00CDE5BA /* CImage.hpp */,
+				856389BA1E75D45100CDE5BA /* GraphicsLoader.cpp */,
+				856389BB1E75D45100CDE5BA /* GraphicsLoader.hpp */,
 			);
 			path = Ananas;
 			sourceTree = "<group>";
@@ -940,6 +1014,16 @@
 		856389831E7549C100CDE5BA /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				856389C01E75D9BE00CDE5BA /* CActionRunEvent.cpp */,
+				856389C11E75D9BE00CDE5BA /* CActionRunEvent.h */,
+				856389C21E75D9BE00CDE5BA /* CActionSequence.cpp */,
+				856389C31E75D9BE00CDE5BA /* CActionSequence.h */,
+				856389C41E75D9BE00CDE5BA /* CActionSimultaneously.cpp */,
+				856389C51E75D9BE00CDE5BA /* CActionSimultaneously.h */,
+				856389CC1E75DC3900CDE5BA /* CActionRepeate.cpp */,
+				856389CD1E75DC3900CDE5BA /* CActionRepeate.h */,
+				856389C61E75D9BE00CDE5BA /* CActionWaiting.cpp */,
+				856389C71E75D9BE00CDE5BA /* CActionWaiting.h */,
 				856389B31E75A34400CDE5BA /* CActionModifiers.cpp */,
 				856389B41E75A34400CDE5BA /* CActionModifiers.h */,
 				856389841E7549C100CDE5BA /* CAction.cpp */,
@@ -956,6 +1040,50 @@
 				856389A91E75581E00CDE5BA /* pugixml.hpp */,
 			);
 			path = pugi;
+			sourceTree = "<group>";
+		};
+		856389CF1E75DE4D00CDE5BA /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				856389D01E75DE5600CDE5BA /* Element.cpp */,
+				856389D11E75DE5600CDE5BA /* Element.hpp */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		856389D61E75E2F300CDE5BA /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				856389D71E75E2F300CDE5BA /* autolink.h */,
+				856389D81E75E2F300CDE5BA /* config.h */,
+				856389D91E75E2F300CDE5BA /* features.h */,
+				856389DA1E75E2F300CDE5BA /* forwards.h */,
+				856389DB1E75E2F300CDE5BA /* json.h */,
+				856389DC1E75E2F300CDE5BA /* json_batchallocator.h */,
+				856389DD1E75E2F300CDE5BA /* json_internalarray.inl */,
+				856389DE1E75E2F300CDE5BA /* json_internalmap.inl */,
+				856389DF1E75E2F300CDE5BA /* json_reader.cpp */,
+				856389E01E75E2F300CDE5BA /* json_value.cpp */,
+				856389E11E75E2F300CDE5BA /* json_valueiterator.inl */,
+				856389E21E75E2F300CDE5BA /* json_writer.cpp */,
+				856389E31E75E2F300CDE5BA /* reader.h */,
+				856389E41E75E2F300CDE5BA /* value.h */,
+				856389E51E75E2F300CDE5BA /* writer.h */,
+			);
+			path = jsoncpp;
+			sourceTree = "<group>";
+		};
+		856389E61E75E2F300CDE5BA /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				856389E71E75E2F300CDE5BA /* tinystr.cpp */,
+				856389E81E75E2F300CDE5BA /* tinystr.h */,
+				856389E91E75E2F300CDE5BA /* tinyxml.cpp */,
+				856389EA1E75E2F300CDE5BA /* tinyxml.h */,
+				856389EB1E75E2F300CDE5BA /* tinyxmlerror.cpp */,
+				856389EC1E75E2F300CDE5BA /* tinyxmlparser.cpp */,
+			);
+			path = xml;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1014,6 +1142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856389BF1E75D95000CDE5BA /* CButton.cpp in Sources */,
 				853BA9E01E71858300F8504D /* gzlib.c in Sources */,
 				853BA98C1E71858300F8504D /* vp8l.c in Sources */,
 				853BA9A61E71858300F8504D /* alpha.c in Sources */,
@@ -1041,7 +1170,9 @@
 				853BA94F1E71858300F8504D /* Common.cpp in Sources */,
 				853BA9751E71858300F8504D /* jfdctfst.c in Sources */,
 				856389AC1E75633900CDE5BA /* CSprite.cpp in Sources */,
+				856389EF1E75E2F300CDE5BA /* json_writer.cpp in Sources */,
 				853BA9861E71858300F8504D /* frame.c in Sources */,
+				856389C91E75D9BE00CDE5BA /* CActionSequence.cpp in Sources */,
 				853BA9CC1E71858300F8504D /* png.c in Sources */,
 				856389981E7549C100CDE5BA /* CAction.cpp in Sources */,
 				853BA9EF1E71935400F8504D /* Trace.cpp in Sources */,
@@ -1059,10 +1190,12 @@
 				856389A51E7554A600CDE5BA /* ShaderManager.cpp in Sources */,
 				853BA98D1E71858300F8504D /* webp.c in Sources */,
 				853BA96A1E71858300F8504D /* jdhuff.c in Sources */,
+				856389CA1E75D9BE00CDE5BA /* CActionSimultaneously.cpp in Sources */,
 				853BA9601E71858300F8504D /* jcsample.c in Sources */,
 				853BA9C41E71858300F8504D /* huffman.c in Sources */,
 				853BA9801E71858300F8504D /* getopt1.c in Sources */,
 				853BA9E51E71858300F8504D /* inflate.c in Sources */,
+				856389F31E75E2F300CDE5BA /* tinyxmlparser.cpp in Sources */,
 				853BA99F1E71858300F8504D /* lossless_sse2.c in Sources */,
 				853BA9891E71858300F8504D /* quant.c in Sources */,
 				853BA9E61E71858300F8504D /* inftrees.c in Sources */,
@@ -1075,12 +1208,15 @@
 				853BA9B61E71858300F8504D /* token.c in Sources */,
 				853BA9521E71858300F8504D /* jcapimin.c in Sources */,
 				853BA98A1E71858300F8504D /* tree.c in Sources */,
+				856389CB1E75D9BE00CDE5BA /* CActionWaiting.cpp in Sources */,
 				853BA9D11E71858300F8504D /* pngread.c in Sources */,
+				856389F91E75E30300CDE5BA /* TexturePackerLoader.cpp in Sources */,
 				853BA9C61E71858300F8504D /* quant_levels.c in Sources */,
 				853BA9881E71858300F8504D /* io.c in Sources */,
 				853BA9CB1E71858300F8504D /* utils.c in Sources */,
 				853BA9731E71858300F8504D /* jerror.c in Sources */,
 				853BA9931E71858300F8504D /* dec_clip_tables.c in Sources */,
+				856389D51E75E00200CDE5BA /* Utils.cpp in Sources */,
 				853BA98F1E71858300F8504D /* alpha_processing.c in Sources */,
 				853BA8511E71807F00F8504D /* Scene.cpp in Sources */,
 				853BA9B91E71858300F8504D /* webpenc.c in Sources */,
@@ -1090,6 +1226,7 @@
 				853BA9C01E71858300F8504D /* bit_reader.c in Sources */,
 				853BA8491E717E9800F8504D /* main.cpp in Sources */,
 				853BA9641E71858300F8504D /* jdarith.c in Sources */,
+				856389F11E75E2F300CDE5BA /* tinyxml.cpp in Sources */,
 				853BA9511E71858300F8504D /* jaricom.c in Sources */,
 				853BA9B01E71858300F8504D /* picture_csp.c in Sources */,
 				853BA98E1E71858300F8504D /* demux.c in Sources */,
@@ -1097,8 +1234,10 @@
 				853BA9B21E71858300F8504D /* picture_rescale.c in Sources */,
 				853BA9CD1E71858300F8504D /* pngerror.c in Sources */,
 				853BA99E1E71858300F8504D /* lossless_neon.c in Sources */,
+				856389BC1E75D45100CDE5BA /* GraphicsLoader.cpp in Sources */,
 				853BA9AD1E71858300F8504D /* histogram.c in Sources */,
 				853BA9D01E71858300F8504D /* pngpread.c in Sources */,
+				856389CE1E75DC3900CDE5BA /* CActionRepeate.cpp in Sources */,
 				853BA9DD1E71858300F8504D /* crc32.c in Sources */,
 				853BA9681E71858300F8504D /* jdcolor.c in Sources */,
 				853BA9DA1E71858300F8504D /* pngwutil.c in Sources */,
@@ -1117,6 +1256,7 @@
 				853BA9651E71858300F8504D /* jdatadst.c in Sources */,
 				853BA9911E71858300F8504D /* cpu.c in Sources */,
 				853BA95E1E71858300F8504D /* jcparam.c in Sources */,
+				856389F21E75E2F300CDE5BA /* tinyxmlerror.cpp in Sources */,
 				853BA9671E71858300F8504D /* jdcoefct.c in Sources */,
 				853BA95A1E71858300F8504D /* jcmainct.c in Sources */,
 				8563897C1E75475A00CDE5BA /* CNode.cpp in Sources */,
@@ -1137,13 +1277,16 @@
 				853BA9771E71858300F8504D /* jidctflt.c in Sources */,
 				853BA9A31E71858300F8504D /* yuv.c in Sources */,
 				853BA9C21E71858300F8504D /* color_cache.c in Sources */,
+				856389ED1E75E2F300CDE5BA /* json_reader.cpp in Sources */,
 				853BA9AF1E71858300F8504D /* picture.c in Sources */,
 				853BA9741E71858300F8504D /* jfdctflt.c in Sources */,
 				853BA9BA1E71858300F8504D /* muxedit.c in Sources */,
 				853BA9D31E71858300F8504D /* pngrtran.c in Sources */,
 				853BA99B1E71858300F8504D /* enc_sse2.c in Sources */,
+				856389F81E75E30300CDE5BA /* CAnimation.cpp in Sources */,
 				85580AA71E72A95600E8AF12 /* MouseHandler.cpp in Sources */,
 				853BA9CA1E71858300F8504D /* thread_webp.c in Sources */,
+				856389C81E75D9BE00CDE5BA /* CActionRunEvent.cpp in Sources */,
 				853BA96B1E71858300F8504D /* jdinput.c in Sources */,
 				853BA9761E71858300F8504D /* jfdctint.c in Sources */,
 				853BA9721E71858300F8504D /* jdtrans.c in Sources */,
@@ -1162,12 +1305,14 @@
 				853BA95D1E71858300F8504D /* jcomapi.c in Sources */,
 				853BA9D21E71858300F8504D /* pngrio.c in Sources */,
 				853BA9A11E71858300F8504D /* upsampling_neon.c in Sources */,
+				856389EE1E75E2F300CDE5BA /* json_value.cpp in Sources */,
 				853BA9BC1E71858300F8504D /* muxread.c in Sources */,
 				853BA9E81E71858300F8504D /* uncompr.c in Sources */,
 				853BA9A41E71858300F8504D /* yuv_mips32.c in Sources */,
 				853BA9E31E71858300F8504D /* infback.c in Sources */,
 				853BA97C1E71858300F8504D /* jquant1.c in Sources */,
 				856389B51E75A34400CDE5BA /* CActionModifiers.cpp in Sources */,
+				856389F01E75E2F300CDE5BA /* tinystr.cpp in Sources */,
 				853BA9501E71858300F8504D /* ImageLib.cpp in Sources */,
 				853BA9E11E71858300F8504D /* gzread.c in Sources */,
 				853BA9A81E71858300F8504D /* backward_references.c in Sources */,
@@ -1175,6 +1320,7 @@
 				853BA9971E71858300F8504D /* enc.c in Sources */,
 				853BA9811E71858300F8504D /* jpeginfo.c in Sources */,
 				853BA9B31E71858300F8504D /* picture_tools.c in Sources */,
+				856389D21E75DE5600CDE5BA /* Element.cpp in Sources */,
 				853BA9D41E71858300F8504D /* pngrutil.c in Sources */,
 				853BA96E1E71858300F8504D /* jdmaster.c in Sources */,
 				853BA94E1E71858300F8504D /* algebra3.cpp in Sources */,

@@ -1,12 +1,15 @@
 CFLAGS=-Wall
 
 INCDIR=-I./em_test_3/em_test_3 \
+-I./em_test_3/em_test_3/Game \
 -I./em_test_3/em_test_3/Common \
 -I./em_test_3/em_test_3/Common/imagelib/png \
 -I./em_test_3/em_test_3/Common/imagelib/zlib \
 -I./em_test_3/em_test_3/Ananas \
 -I./em_test_3/em_test_3/Ananas/Actions \
--I./em_test_3/em_test_3/Ananas/pugi
+-I./em_test_3/em_test_3/Ananas/pugi \
+-I./em_test_3/em_test_3/Ananas/xml \
+-I./em_test_3/em_test_3/Ananas/jsoncpp
 
 PNG_INCDIR=-I./em_test_3/em_test_3/Common/imagelib/zlib
 
@@ -43,8 +46,8 @@ ZLIB_SOURCES=./em_test_3/em_test_3/Common/imagelib/zlib/adler32.c \
 ./em_test_3/em_test_3/Common/imagelib/zlib/zutil.c
 
 SOURCES=./em_test_3/em_test_3/Scene.cpp \
-./em_test_3/em_test_3/GameScene.cpp \
 ./em_test_3/em_test_3/Common/algebra3.cpp \
+./em_test_3/em_test_3/Common/Utils.cpp \
 ./em_test_3/em_test_3/Common/FileLoader.cpp \
 ./em_test_3/em_test_3/Common/Trace.cpp \
 ./em_test_3/em_test_3/Common/esUtils.cpp \
@@ -54,11 +57,29 @@ SOURCES=./em_test_3/em_test_3/Scene.cpp \
 ./em_test_3/em_test_3/Ananas/EventHandler.cpp \
 ./em_test_3/em_test_3/Ananas/Actions/CAction.cpp \
 ./em_test_3/em_test_3/Ananas/Actions/CActionModifiers.cpp \
+./em_test_3/em_test_3/Ananas/Actions/CActionRepeate.cpp \
+./em_test_3/em_test_3/Ananas/Actions/CActionRunEvent.cpp \
+./em_test_3/em_test_3/Ananas/Actions/CActionSequence.cpp \
+./em_test_3/em_test_3/Ananas/Actions/CActionSimultaneously.cpp \
+./em_test_3/em_test_3/Ananas/Actions/CActionWaiting.cpp \
 ./em_test_3/em_test_3/Ananas/ShaderManager.cpp \
 ./em_test_3/em_test_3/Ananas/pugi/pugixml.cpp \
+./em_test_3/em_test_3/Ananas/jsoncpp/json_reader.cpp \
+./em_test_3/em_test_3/Ananas/jsoncpp/json_value.cpp \
+./em_test_3/em_test_3/Ananas/jsoncpp/json_writer.cpp \
+./em_test_3/em_test_3/Ananas/xml/tinystr.cpp \
+./em_test_3/em_test_3/Ananas/xml/tinyxml.cpp \
+./em_test_3/em_test_3/Ananas/xml/tinyxmlerror.cpp \
+./em_test_3/em_test_3/Ananas/xml/tinyxmlparser.cpp \
 ./em_test_3/em_test_3/Ananas/CSprite.cpp \
 ./em_test_3/em_test_3/Ananas/Render.cpp \
-./em_test_3/em_test_3/Ananas/CImage.cpp
+./em_test_3/em_test_3/Ananas/CImage.cpp \
+./em_test_3/em_test_3/Ananas/GraphicsLoader.cpp \
+./em_test_3/em_test_3/Ananas/CButton.cpp \
+./em_test_3/em_test_3/Ananas/TexturePackerLoader.cpp \
+./em_test_3/em_test_3/Ananas/CAnimation.cpp \
+./em_test_3/em_test_3/Game/Element.cpp \
+./em_test_3/em_test_3/GameScene.cpp \
 
 MAIN_SRC=./em_test_3/em_test_3/main.cpp
 

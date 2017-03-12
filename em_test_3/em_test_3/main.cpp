@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
 //    Scene* scene = new Scene(1024, 768);
 //    scene->Start();
     
-    CDirector::GetDirector().Init(1024, 768);
+    CDirector::GetDirector().Init(1136, 768);
     CGameScene* gs = new CGameScene;
     CDirector::GetDirector().GetRooot()->AddChild(gs);    
 

@@ -9,6 +9,7 @@
 
 #include "CActionSequence.h"
 #include "../CDirector.h"
+#include <stdarg.h>
 
 CActionSequence::CActionSequence(bool autodelete)
 : m_curAction(0),
@@ -112,7 +113,7 @@ void CActionSequence::Update(float dt)
             act->Update(dt);
             if (act->IsDelete())
             {
-                vector<CAction*>::iterator erase = std::find(m_actions.begin(), m_actions.end(), act);
+                std::vector<CAction*>::iterator erase = std::find(m_actions.begin(), m_actions.end(), act);
                 if (erase != m_actions.end())
                 {
                     RemoveAction(act);
@@ -123,7 +124,7 @@ void CActionSequence::Update(float dt)
         }
     }
     
-    for (vector<CAction*>::iterator it = m_delete_buffer.begin(); it != m_delete_buffer.end(); it++)
+    for (std::vector<CAction*>::iterator it = m_delete_buffer.begin(); it != m_delete_buffer.end(); it++)
     {
         CAction *action = *it;
         RemoveAction(action);
@@ -174,7 +175,7 @@ CAction* CActionSequence::Add(CAction* act, int position)
 
 void CActionSequence::Clear()
 {
-    DEBUG_ASSERT(!m_autoDelete); // https://jira.pacific-interactive.net/browse/HOFM-17075
+//    DEBUG_ASSERT(!m_autoDelete); // https://jira.pacific-interactive.net/browse/HOFM-17075
     
     if (m_inUpdate)
     {
@@ -183,7 +184,7 @@ void CActionSequence::Clear()
         return;
     }
     
-    for (vector<CAction*>::iterator it = m_actions.begin(); it != m_actions.end(); it++)
+    for (std::vector<CAction*>::iterator it = m_actions.begin(); it != m_actions.end(); it++)
     {
         CAction *action = *it;
         RemoveAction(action);
