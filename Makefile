@@ -5,7 +5,8 @@ INCDIR=-I./em_test_3/em_test_3 \
 -I./em_test_3/em_test_3/Common/imagelib/png \
 -I./em_test_3/em_test_3/Common/imagelib/zlib \
 -I./em_test_3/em_test_3/Ananas \
--I./em_test_3/em_test_3/Ananas/Actions
+-I./em_test_3/em_test_3/Ananas/Actions \
+-I./em_test_3/em_test_3/Ananas/pugi
 
 PNG_INCDIR=-I./em_test_3/em_test_3/Common/imagelib/zlib
 
@@ -42,6 +43,7 @@ ZLIB_SOURCES=./em_test_3/em_test_3/Common/imagelib/zlib/adler32.c \
 ./em_test_3/em_test_3/Common/imagelib/zlib/zutil.c
 
 SOURCES=./em_test_3/em_test_3/Scene.cpp \
+./em_test_3/em_test_3/GameScene.cpp \
 ./em_test_3/em_test_3/Common/algebra3.cpp \
 ./em_test_3/em_test_3/Common/FileLoader.cpp \
 ./em_test_3/em_test_3/Common/Trace.cpp \
@@ -51,7 +53,12 @@ SOURCES=./em_test_3/em_test_3/Scene.cpp \
 ./em_test_3/em_test_3/Ananas/CNode.cpp \
 ./em_test_3/em_test_3/Ananas/EventHandler.cpp \
 ./em_test_3/em_test_3/Ananas/Actions/CAction.cpp \
-./em_test_3/em_test_3/Ananas/ShaderManager.cpp
+./em_test_3/em_test_3/Ananas/Actions/CActionModifiers.cpp \
+./em_test_3/em_test_3/Ananas/ShaderManager.cpp \
+./em_test_3/em_test_3/Ananas/pugi/pugixml.cpp \
+./em_test_3/em_test_3/Ananas/CSprite.cpp \
+./em_test_3/em_test_3/Ananas/Render.cpp \
+./em_test_3/em_test_3/Ananas/CImage.cpp
 
 MAIN_SRC=./em_test_3/em_test_3/main.cpp
 

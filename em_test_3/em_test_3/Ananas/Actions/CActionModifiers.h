@@ -10,13 +10,14 @@
 #pragma once
 
 #include "CAction.h"
+#include "CSprite.h"
 
 /////////////////////////  экшен для перемещения /////////////
 CAction* ActionMove(CSprite* node, vec2 from, vec2 to, float time, float speed = 0);	// менять из from в to
 CAction* ActionMoveTo(CSprite* node, vec2 to, float time, float speed = 0);				// менять в to 
 CAction* ActionMoveBy(CSprite* node, vec2 to, float time, float speed = 0);				// менять относительно текущено на to
 
-CAction* ActionMoveSpline(CSprite* node, CSpline* spline, float time, bool first_pos = true,bool loop=false);                  // менять по сплайну
+//CAction* ActionMoveSpline(CSprite* node, CSpline* spline, float time, bool first_pos = true,bool loop=false);                  // менять по сплайну
 
 CAction* ActionAnchorPointTo(CSprite* node, vec2 to, float time, float speed = 0);          // менять в to
 
@@ -51,9 +52,9 @@ CAction* ActionChangeColorBy(CSprite* node, sColor to, float time);					// ме�
 
 /////////////////////////  экшен для изменения громкости /////////////
 
-#if (OS != OS_MAC)
-class CBaseSound;
-CAction* ActionChangeVolume(CBaseSound* node, float from, float to, float time, float speed = 0);   // менять из from в to
-CAction* ActionChangeVolumeTo(CBaseSound* node, float to, float time, float speed = 0);				// менять в to
-CAction* ActionChangeVolumeBy(CBaseSound* node, float to, float time, float speed = 0);				// менять относительно текущено на to
-#endif
+//#if (OS != OS_MAC)
+//class CBaseSound;
+//CAction* ActionChangeVolume(CBaseSound* node, float from, float to, float time, float speed = 0);   // менять из from в to
+//CAction* ActionChangeVolumeTo(CBaseSound* node, float to, float time, float speed = 0);				// менять в to
+//CAction* ActionChangeVolumeBy(CBaseSound* node, float to, float time, float speed = 0);				// менять относительно текущено на to
+//#endif

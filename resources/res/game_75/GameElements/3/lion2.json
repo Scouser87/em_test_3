@@ -1,0 +1,120 @@
+{"frames": [
+
+{
+	"filename": "Lion_symbol_00096.jpg",
+	"frame": {"x":0,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00098.jpg",
+	"frame": {"x":0,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00100.jpg",
+	"frame": {"x":155,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00102.jpg",
+	"frame": {"x":0,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00104.jpg",
+	"frame": {"x":155,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00106.jpg",
+	"frame": {"x":310,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00108.jpg",
+	"frame": {"x":0,"y":366,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00110.jpg",
+	"frame": {"x":155,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00112.jpg",
+	"frame": {"x":310,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00114.jpg",
+	"frame": {"x":155,"y":366,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00116.jpg",
+	"frame": {"x":310,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Lion_symbol_00118.jpg",
+	"frame": {"x":310,"y":366,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "lion2.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:dcd65b2b150532e01dd6dadbe84e7883:3100198d8c5bd61b32e5cf0d38ce0fc7:88177ff7f85769fdba7aa7ebe88bfeaf$"
+}
+}

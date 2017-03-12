@@ -1,0 +1,567 @@
+<head type="xae" version="1" size="1010,534"/>
+<player scissor="true" loop="false" name="retrigger" speed="1" />
+<Compitem duration="3" width="1010" height="534">
+  <Layer name="Pre-comp 4" width="1010" height="534" inPoint="0" outPoint="3">
+    <transform>
+      <transformAnchorPoint type="0" value="0.5,0.5"/>
+      <transformPosition type="0" value="0,0"/>
+      <transformScale type="0" value="1,1"/>
+      <transformRotation type="0" value="0"/>
+      <transformOpacity type="1" value="1">
+        <key time="2.86666666666667" value="1"/>
+        <key time="2.96666666666667" value="0"/>
+      </transformOpacity>
+    </transform>
+    <Compitem duration="3" width="1010" height="534">
+      <Layer name="frame" width="1010" height="534" inPoint="0" outPoint="3">
+        <transform>
+          <transformAnchorPoint type="0" value="0.5,0.5"/>
+          <transformPosition type="0" value="0,0"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="1" value="0">
+            <key time="0.03333333333333" value="0"/>
+            <key time="0.06666666666667" value="1"/>
+          </transformOpacity>
+        </transform>
+        <Compitem duration="3" width="1010" height="534">
+          <Sprite name="top" file="top.png" width="1010" height="56" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="0,239"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="0" value="1"/>
+            </transform>
+          </Sprite>
+          <Sprite name="d" file="d.png" width="1010" height="61" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="0,-236.5"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="0" value="1"/>
+            </transform>
+          </Sprite>
+          <Sprite name="right" file="right.png" width="49" height="417" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="471.5,2.5"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="0" value="1"/>
+            </transform>
+          </Sprite>
+          <Sprite name="left" file="left.png" width="43" height="417" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="-464.5,2.5"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="0" value="1"/>
+            </transform>
+          </Sprite>
+        </Compitem>
+      </Layer>
+      <Sprite name="reached" file="reached.png" width="277" height="39" inPoint="0" outPoint="3">
+        <transform>
+          <transformAnchorPoint type="0" value="0.5,0.5"/>
+          <transformPosition type="1" value="2,-96">
+            <key time="1.93333333333333" value="2,-96"/>
+            <key time="2.16666666666667" value="2,-164"/>
+          </transformPosition>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="1" value="0">
+            <key time="1.93333333333333" value="0"/>
+            <key time="2.16666666666667" value="1"/>
+          </transformOpacity>
+        </transform>
+      </Sprite>
+      <Sprite name="max" file="max.png" width="458" height="47" inPoint="0" outPoint="3">
+        <transform>
+          <transformAnchorPoint type="0" value="0.5,0.5"/>
+          <transformPosition type="1" value="-6,-24">
+            <key time="1.73333333333333" value="-6,-24"/>
+            <key time="2" value="-6,-120"/>
+          </transformPosition>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="1" value="0">
+            <key time="1.73333333333333" value="0"/>
+            <key time="2" value="1"/>
+          </transformOpacity>
+        </transform>
+      </Sprite>
+      <Mask name="max_black" file="max_black.png" width="454" height="82" inPoint="0" outPoint="3">
+        <transform>
+          <transformAnchorPoint type="0" value="0.5,0.5"/>
+          <transformPosition type="0" value="-6,-138"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+        <Children>
+          <Sprite name="blic" file="blic.png" width="85" height="214" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="1" value="-312,16">
+                <key time="2.16666666666667" value="-312,16"/>
+                <key time="2.56666666666667" value="292,16"/>
+              </transformPosition>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="-0.39504292613193"/>
+              <transformOpacity type="0" value="1"/>
+            </transform>
+          </Sprite>
+        </Children>
+      </Mask>
+      <Pyro name="light" file="light" width="100" height="100" inPoint="1.46666666666667" outPoint="2.73333333333333">
+        <transform>
+          <transformAnchorPoint type="0" value="0.46,0.5"/>
+          <transformPosition type="0" value="-330,-2"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+      </Pyro>
+      <Pyro name="light" file="light" width="100" height="100" inPoint="1.46666666666667" outPoint="2.73333333333333">
+        <transform>
+          <transformAnchorPoint type="0" value="0.46,0.5"/>
+          <transformPosition type="0" value="-242,12"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+      </Pyro>
+      <Pyro name="light" file="light" width="100" height="100" inPoint="1.46666666666667" outPoint="2.73333333333333">
+        <transform>
+          <transformAnchorPoint type="0" value="0.46,0.5"/>
+          <transformPosition type="0" value="-160,76"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+      </Pyro>
+      <Pyro name="light" file="light" width="100" height="100" inPoint="1.46666666666667" outPoint="2.73333333333333">
+        <transform>
+          <transformAnchorPoint type="0" value="0.46,0.5"/>
+          <transformPosition type="0" value="-70,20"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+      </Pyro>
+      <Pyro name="light" file="light" width="100" height="100" inPoint="1.46666666666667" outPoint="2.73333333333333">
+        <transform>
+          <transformAnchorPoint type="0" value="0.46,0.5"/>
+          <transformPosition type="0" value="44,24"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+      </Pyro>
+      <Pyro name="light" file="light" width="100" height="100" inPoint="1.46666666666667" outPoint="2.73333333333333">
+        <transform>
+          <transformAnchorPoint type="0" value="0.46,0.5"/>
+          <transformPosition type="0" value="154,4"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+      </Pyro>
+      <Pyro name="light" file="light" width="100" height="100" inPoint="1.46666666666667" outPoint="2.73333333333333">
+        <transform>
+          <transformAnchorPoint type="0" value="0.46,0.5"/>
+          <transformPosition type="0" value="246,-2"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+      </Pyro>
+      <Pyro name="light" file="light" width="100" height="100" inPoint="1.46666666666667" outPoint="2.73333333333333">
+        <transform>
+          <transformAnchorPoint type="0" value="0.46,0.5"/>
+          <transformPosition type="0" value="318,4"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+      </Pyro>
+      <Layer name="retrigger" width="1010" height="534" inPoint="0" outPoint="3">
+        <transform>
+          <transformAnchorPoint type="0" value="0.5,0.5"/>
+          <transformPosition type="0" value="0,0"/>
+          <transformScale type="1" value="1,1">
+            <key time="1.53333333333333" value="1,1"/>
+            <key time="1.6" value="1.01,1.01"/>
+            <key time="1.66666666666667" value="1,1"/>
+            <key time="1.73333333333333" value="1.01,1.01"/>
+            <key time="1.8" value="1,1"/>
+            <key time="1.86666666666667" value="1.01,1.01"/>
+            <key time="1.93333333333333" value="1,1"/>
+          </transformScale>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+        <Compitem duration="3" width="1010" height="534">
+          <Sprite name="r" file="r.png" width="95" height="139" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="1" value="-326,308">
+                <key time="0.06666666666667" value="-326,308"/>
+                <key time="0.23333333333333" value="-326,28"/>
+              </transformPosition>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="0.06666666666667" value="0"/>
+                <key time="0.23333333333333" value="1"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="r" file="r.png" width="95" height="139" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="1" value="-66,300">
+                <key time="0.46666666666667" value="-66,300"/>
+                <key time="0.63333333333333" value="-66,54"/>
+              </transformPosition>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="0.46666666666667" value="0"/>
+                <key time="0.63333333333333" value="1"/>
+                <key time="1.26666666666667" value="1"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="r" file="r.png" width="95" height="139" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="1" value="318.5,312">
+                <key time="1.26666666666667" value="318.5,312"/>
+                <key time="1.46666666666667" value="318.5,42"/>
+              </transformPosition>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="1.26666666666667" value="0"/>
+                <key time="1.46666666666667" value="1"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="t" file="t.png" width="90" height="128" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="1" value="-153.5,295.5">
+                <key time="0.33333333333333" value="-153.5,295.5"/>
+                <key time="0.5" value="-153.5,49.5"/>
+              </transformPosition>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="0.33333333333333" value="0"/>
+                <key time="0.5" value="1"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="i" file="i.png" width="48" height="130" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="1" value="2,296">
+                <key time="0.6" value="2,296"/>
+                <key time="0.8" value="2,52"/>
+              </transformPosition>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="0.6" value="0"/>
+                <key time="0.8" value="1"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="g" file="g.png" width="86" height="122" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="1" value="68,298">
+                <key time="0.76666666666667" value="68,298"/>
+                <key time="0.96666666666667" value="68,46"/>
+              </transformPosition>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="0.76666666666667" value="0"/>
+                <key time="0.96666666666667" value="1"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="g" file="g.png" width="86" height="122" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="1" value="156.5,292.5">
+                <key time="0.93333333333333" value="156.5,292.5"/>
+                <key time="1.13333333333333" value="156.5,20.5"/>
+              </transformPosition>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="0.93333333333333" value="0"/>
+                <key time="1.13333333333333" value="1"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="e" file="e.png" width="81" height="140" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="1" value="-237,297.5">
+                <key time="0.2" value="-237,297.5"/>
+                <key time="0.36666666666667" value="-237,37.5"/>
+              </transformPosition>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="0.2" value="0"/>
+                <key time="0.36666666666667" value="1"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="e" file="e.png" width="81" height="140" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="1" value="240,306">
+                <key time="1.1" value="240,306"/>
+                <key time="1.3" value="240,18"/>
+              </transformPosition>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="1.1" value="0"/>
+                <key time="1.3" value="1"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+        </Compitem>
+      </Layer>
+      <Layer name="Pre-comp 3" width="1010" height="534" inPoint="0" outPoint="3">
+        <transform>
+          <transformAnchorPoint type="0" value="0.5,0.5"/>
+          <transformPosition type="0" value="0,0"/>
+          <transformScale type="0" value="1,1"/>
+          <transformRotation type="0" value="0"/>
+          <transformOpacity type="0" value="1"/>
+        </transform>
+        <Compitem duration="3" width="1010" height="534">
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="-322,107"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="1.53333333333333" value="0"/>
+                <key time="1.6" value="1"/>
+                <key time="1.66666666666667" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="-295,165"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="1.6" value="0"/>
+                <key time="1.66666666666667" value="1"/>
+                <key time="1.73333333333333" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="-236,118"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="1.66666666666667" value="0"/>
+                <key time="1.73333333333333" value="1"/>
+                <key time="1.8" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="-186,165"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="1.73333333333333" value="0"/>
+                <key time="1.8" value="1"/>
+                <key time="1.86666666666667" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="-134,130"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="1.8" value="0"/>
+                <key time="1.86666666666667" value="1"/>
+                <key time="1.93333333333333" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="-67,179"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="1.86666666666667" value="0"/>
+                <key time="1.93333333333333" value="1"/>
+                <key time="2" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="-18,129"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="1.93333333333333" value="0"/>
+                <key time="2" value="1"/>
+                <key time="2.06666666666667" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="55,153"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="2" value="0"/>
+                <key time="2.06666666666667" value="1"/>
+                <key time="2.13333333333333" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="55,153"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="2.06666666666667" value="0"/>
+                <key time="2.13333333333333" value="1"/>
+                <key time="2.2" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="97,109"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="2.13333333333333" value="0"/>
+                <key time="2.2" value="1"/>
+                <key time="2.26666666666667" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="156,136"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="2.2" value="0"/>
+                <key time="2.26666666666667" value="1"/>
+                <key time="2.33333333333333" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="193,93"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="2.26666666666667" value="0"/>
+                <key time="2.33333333333333" value="1"/>
+                <key time="2.4" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="253,134"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="2.33333333333333" value="0"/>
+                <key time="2.4" value="1"/>
+                <key time="2.46666666666667" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="315,120"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="2.4" value="0"/>
+                <key time="2.46666666666667" value="1"/>
+                <key time="2.53333333333333" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="348,168"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="2.46666666666667" value="0"/>
+                <key time="2.53333333333333" value="1"/>
+                <key time="2.6" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+          <Sprite name="paw" file="paw.png" width="29" height="33" inPoint="0" outPoint="3">
+            <transform>
+              <transformAnchorPoint type="0" value="0.5,0.5"/>
+              <transformPosition type="0" value="391,116"/>
+              <transformScale type="0" value="1,1"/>
+              <transformRotation type="0" value="0"/>
+              <transformOpacity type="1" value="0">
+                <key time="2.53333333333333" value="0"/>
+                <key time="2.6" value="1"/>
+                <key time="2.66666666666667" value="0"/>
+              </transformOpacity>
+            </transform>
+          </Sprite>
+        </Compitem>
+      </Layer>
+    </Compitem>
+  </Layer>
+</Compitem>

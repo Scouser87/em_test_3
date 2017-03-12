@@ -1,0 +1,46 @@
+<head type="xsp" version="1" />
+<objects name="QOTC_skin.psd" width="1136" height="768" isCentered="true" isCheckJPG="false" isUseTextEffects="false" borderSize="0" >
+    <Group name="GR_BUTTONS" x="-568" y="384" size="0,0 " opacity="100" >
+        <Group name="GR_LEFT" x="-568" y="384" size="0,0 " opacity="100" >
+            <Group name="btnLeft" x="-568" y="384" size="0,0 " opacity="100" >
+                <Group name="normal" x="-568" y="384" size="0,0 " opacity="100" >
+                </Group>
+                <Group name="pressed" x="-568" y="384" size="0,0 " opacity="100" >
+                </Group>
+            </Group>
+        </Group>
+        <Group name="GR_RIGHT" x="-568" y="384" size="0,0 " opacity="100" >
+            <Group name="btnRight" x="-568" y="384" size="0,0 " opacity="100" >
+                <Group name="normal" x="-568" y="384" size="0,0 " opacity="100" >
+                </Group>
+                <Group name="pressed" x="-568" y="384" size="0,0 " opacity="100" >
+                </Group>
+            </Group>
+        </Group>
+    </Group>
+    <Group name="WIN_LINES" x="-568" y="384" size="0,0 " opacity="100" >
+    </Group>
+    <Group name="GR_SKIN" x="0" y="0" size="1136,768 " opacity="100" >
+        <Sprite name="right" x="474" y="0" opacity="100" />
+        <Sprite name="top" x="-2" y="321" opacity="100" />
+        <Sprite name="bottom" x="-2" y="-298" opacity="100" />
+        <Sprite name="left" x="-476" y="0" opacity="100" />
+    </Group>
+    <Group name="OTHER_STUFF" x="-568" y="384" size="0,0 " opacity="100" >
+    </Group>
+    <Group name="LINES" x="-568" y="384" size="0,0 " opacity="100" >
+    </Group>
+    <Group name="ACTIVE_ELEMENTS" x="-568" y="384" size="0,0 " opacity="100" >
+    </Group>
+    <Group name="GR_LINES" x="-1" y="25" size="651,497 " opacity="100" >
+        <Sprite name="line" x="-319" y="26" opacity="100" />
+        <Sprite name="line" x="-160" y="26" opacity="100" />
+        <Sprite name="line" x="-1" y="26" opacity="100" />
+        <Sprite name="line" x="158" y="26" opacity="100" />
+        <Sprite name="line" x="316" y="25" opacity="100" />
+    </Group>
+    <Group name="ROLLS" x="-568" y="384" size="0,0 " opacity="100" >
+    </Group>
+    <Sprite name="fon" x="0" y="24" opacity="100" />
+    <Sprite name="fonFS" x="0" y="24" opacity="100" />
+</objects>

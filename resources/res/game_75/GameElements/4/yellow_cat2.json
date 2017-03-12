@@ -1,0 +1,84 @@
+{"frames": [
+
+{
+	"filename": "Panther_00048.jpg",
+	"frame": {"x":0,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00049.jpg",
+	"frame": {"x":0,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00050.jpg",
+	"frame": {"x":155,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00051.jpg",
+	"frame": {"x":0,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00052.jpg",
+	"frame": {"x":155,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00053.jpg",
+	"frame": {"x":310,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00054.jpg",
+	"frame": {"x":0,"y":366,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00055.jpg",
+	"frame": {"x":155,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "yellow_cat2.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:196bb948c3a7c0f39db37ce0991fe41a:a7ea5201619ae285038d3552dbc21277:5a50f4fd2abed0e0f79985f382068e24$"
+}
+}

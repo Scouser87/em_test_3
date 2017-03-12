@@ -174,6 +174,11 @@
 		856389821E75496C00CDE5BA /* CDirector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389801E75496C00CDE5BA /* CDirector.cpp */; };
 		856389981E7549C100CDE5BA /* CAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389841E7549C100CDE5BA /* CAction.cpp */; };
 		856389A51E7554A600CDE5BA /* ShaderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389A31E7554A600CDE5BA /* ShaderManager.cpp */; };
+		856389AC1E75633900CDE5BA /* CSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389AA1E75633900CDE5BA /* CSprite.cpp */; };
+		856389AF1E75639D00CDE5BA /* CImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389AD1E75639D00CDE5BA /* CImage.cpp */; };
+		856389B21E7565AE00CDE5BA /* Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389B01E7565AE00CDE5BA /* Render.cpp */; };
+		856389B51E75A34400CDE5BA /* CActionModifiers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389B31E75A34400CDE5BA /* CActionModifiers.cpp */; };
+		856389B81E75A76600CDE5BA /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389B61E75A76600CDE5BA /* GameScene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -443,6 +448,19 @@
 		856389A21E754AA400CDE5BA /* sColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sColor.h; sourceTree = "<group>"; };
 		856389A31E7554A600CDE5BA /* ShaderManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderManager.cpp; sourceTree = "<group>"; };
 		856389A41E7554A600CDE5BA /* ShaderManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ShaderManager.hpp; sourceTree = "<group>"; };
+		856389A71E75581E00CDE5BA /* pugiconfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
+		856389A81E75581E00CDE5BA /* pugixml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
+		856389A91E75581E00CDE5BA /* pugixml.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
+		856389AA1E75633900CDE5BA /* CSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSprite.cpp; sourceTree = "<group>"; };
+		856389AB1E75633900CDE5BA /* CSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSprite.h; sourceTree = "<group>"; };
+		856389AD1E75639D00CDE5BA /* CImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CImage.cpp; sourceTree = "<group>"; };
+		856389AE1E75639D00CDE5BA /* CImage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CImage.hpp; sourceTree = "<group>"; };
+		856389B01E7565AE00CDE5BA /* Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Render.cpp; sourceTree = "<group>"; };
+		856389B11E7565AE00CDE5BA /* Render.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Render.hpp; sourceTree = "<group>"; };
+		856389B31E75A34400CDE5BA /* CActionModifiers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CActionModifiers.cpp; sourceTree = "<group>"; };
+		856389B41E75A34400CDE5BA /* CActionModifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CActionModifiers.h; sourceTree = "<group>"; };
+		856389B61E75A76600CDE5BA /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
+		856389B71E75A76600CDE5BA /* GameScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameScene.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -483,6 +501,8 @@
 				853BA8481E717E9800F8504D /* main.cpp */,
 				853BA84F1E71807F00F8504D /* Scene.cpp */,
 				853BA8501E71807F00F8504D /* Scene.hpp */,
+				856389B61E75A76600CDE5BA /* GameScene.cpp */,
+				856389B71E75A76600CDE5BA /* GameScene.hpp */,
 			);
 			path = em_test_3;
 			sourceTree = "<group>";
@@ -896,6 +916,11 @@
 		856389791E75471D00CDE5BA /* Ananas */ = {
 			isa = PBXGroup;
 			children = (
+				856389B01E7565AE00CDE5BA /* Render.cpp */,
+				856389B11E7565AE00CDE5BA /* Render.hpp */,
+				856389AA1E75633900CDE5BA /* CSprite.cpp */,
+				856389AB1E75633900CDE5BA /* CSprite.h */,
+				856389A61E75581E00CDE5BA /* pugi */,
 				856389831E7549C100CDE5BA /* Actions */,
 				856389801E75496C00CDE5BA /* CDirector.cpp */,
 				856389811E75496C00CDE5BA /* CDirector.h */,
@@ -906,6 +931,8 @@
 				856389A21E754AA400CDE5BA /* sColor.h */,
 				856389A31E7554A600CDE5BA /* ShaderManager.cpp */,
 				856389A41E7554A600CDE5BA /* ShaderManager.hpp */,
+				856389AD1E75639D00CDE5BA /* CImage.cpp */,
+				856389AE1E75639D00CDE5BA /* CImage.hpp */,
 			);
 			path = Ananas;
 			sourceTree = "<group>";
@@ -913,10 +940,22 @@
 		856389831E7549C100CDE5BA /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				856389B31E75A34400CDE5BA /* CActionModifiers.cpp */,
+				856389B41E75A34400CDE5BA /* CActionModifiers.h */,
 				856389841E7549C100CDE5BA /* CAction.cpp */,
 				856389851E7549C100CDE5BA /* CAction.h */,
 			);
 			path = Actions;
+			sourceTree = "<group>";
+		};
+		856389A61E75581E00CDE5BA /* pugi */ = {
+			isa = PBXGroup;
+			children = (
+				856389A71E75581E00CDE5BA /* pugiconfig.hpp */,
+				856389A81E75581E00CDE5BA /* pugixml.cpp */,
+				856389A91E75581E00CDE5BA /* pugixml.hpp */,
+			);
+			path = pugi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -989,6 +1028,7 @@
 				853BA9CF1E71858300F8504D /* pngmem.c in Sources */,
 				853BA9841E71858300F8504D /* alpha.c in Sources */,
 				853BA97D1E71858300F8504D /* jquant2.c in Sources */,
+				856389B21E7565AE00CDE5BA /* Render.cpp in Sources */,
 				853BA9661E71858300F8504D /* jdatasrc.c in Sources */,
 				853BA9B41E71858300F8504D /* quant.c in Sources */,
 				853BA9E71E71858300F8504D /* trees.c in Sources */,
@@ -1000,6 +1040,7 @@
 				853BA97B1E71858300F8504D /* jmemnobs.c in Sources */,
 				853BA94F1E71858300F8504D /* Common.cpp in Sources */,
 				853BA9751E71858300F8504D /* jfdctfst.c in Sources */,
+				856389AC1E75633900CDE5BA /* CSprite.cpp in Sources */,
 				853BA9861E71858300F8504D /* frame.c in Sources */,
 				853BA9CC1E71858300F8504D /* png.c in Sources */,
 				856389981E7549C100CDE5BA /* CAction.cpp in Sources */,
@@ -1027,6 +1068,7 @@
 				853BA9E61E71858300F8504D /* inftrees.c in Sources */,
 				853BA97A1E71858300F8504D /* jmemmgr.c in Sources */,
 				853BA9AB1E71858300F8504D /* filter.c in Sources */,
+				856389AF1E75639D00CDE5BA /* CImage.cpp in Sources */,
 				853BA9871E71858300F8504D /* idec.c in Sources */,
 				853BA97E1E71858300F8504D /* jutils.c in Sources */,
 				853BA9EC1E71881F00F8504D /* FileLoader.cpp in Sources */,
@@ -1108,6 +1150,7 @@
 				853BA9781E71858300F8504D /* jidctfst.c in Sources */,
 				853BA98B1E71858300F8504D /* vp8.c in Sources */,
 				853BA9DB1E71858300F8504D /* adler32.c in Sources */,
+				856389B81E75A76600CDE5BA /* GameScene.cpp in Sources */,
 				853BA9611E71858300F8504D /* jctrans.c in Sources */,
 				853BA9A91E71858300F8504D /* config.c in Sources */,
 				853BA9941E71858300F8504D /* dec_mips32.c in Sources */,
@@ -1124,6 +1167,7 @@
 				853BA9A41E71858300F8504D /* yuv_mips32.c in Sources */,
 				853BA9E31E71858300F8504D /* infback.c in Sources */,
 				853BA97C1E71858300F8504D /* jquant1.c in Sources */,
+				856389B51E75A34400CDE5BA /* CActionModifiers.cpp in Sources */,
 				853BA9501E71858300F8504D /* ImageLib.cpp in Sources */,
 				853BA9E11E71858300F8504D /* gzread.c in Sources */,
 				853BA9A81E71858300F8504D /* backward_references.c in Sources */,

@@ -1,0 +1,27 @@
+<Shaders>
+      <Shader name="DefaultTexture">
+          <vertexShader path="resources/shaders/DefaultTexture.vsh"/>
+          <fragmentShader path="resources/shaders/DefaultTexture.fsh"/>
+          <uniforms>
+              <uniform id="Projection"/>
+              <uniform id="Modelview"/>
+              <uniform id="texture0"/>
+          </uniforms>
+          <attributes>
+              <attribute id="Position"/>
+              <attribute id="TexCoord"/>
+          </attributes>
+      </Shader>
+      <Shader name="DefaultColor">
+          <vertexShader path="resources/shaders/DefaultColor.vsh"/>
+          <fragmentShader path="resources/shaders/DefaultColor.fsh"/>
+          <uniforms>
+              <uniform id="Projection"/>
+              <uniform id="Modelview"/>
+              <uniform id="Color"/>
+          </uniforms>
+          <attributes>
+              <attribute id="Position"/>
+          </attributes>
+      </Shader>
+</Shaders>

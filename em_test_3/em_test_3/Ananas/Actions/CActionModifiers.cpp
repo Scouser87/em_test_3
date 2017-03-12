@@ -9,7 +9,7 @@
 
 #include "CActionModifiers.h"
 
-#include "../sound/new/BaseSound.h"
+//#include "../sound/new/BaseSound.h"
 
 CAction* ActionMove(CSprite* node, vec2 from, vec2 to, float time, float speed)
 {
@@ -26,10 +26,10 @@ CAction* ActionMoveBy(CSprite* node, vec2 to, float time, float speed)
 	return CActionParameterChange< vec2, CSprite >::By(node, &CSprite::SetPosition, &CSprite::GetPosition, to, time, speed);
 }
 
-CAction* ActionMoveSpline(CSprite* node, CSpline* spline, float time, bool first_pos, bool loop)
-{
-    return new CActionMoveSpline <CSprite> (node, &CSprite::SetPosition, spline, time, first_pos,loop);
-}
+//CAction* ActionMoveSpline(CSprite* node, CSpline* spline, float time, bool first_pos, bool loop)
+//{
+//    return new CActionMoveSpline <CSprite> (node, &CSprite::SetPosition, spline, time, first_pos,loop);
+//}
 
 CAction* ActionChangeOpacity(CSprite* node, float from, float to, float time, float speed)
 {
@@ -136,19 +136,19 @@ CAction* ActionChangeColorBy(CSprite* node, sColor to, float time)
 
 
 
-#if (OS != OS_MAC)
-CAction* ActionChangeVolume(CBaseSound* node, float from, float to, float time, float speed)
-{
-	return new CActionParameterChange< float, CBaseSound >(node, &CBaseSound::SetVolume, from, to, time, speed);
-}
-
-CAction* ActionChangeVolumeTo(CBaseSound* node, float to, float time, float speed)
-{
-	return CActionParameterChange< float, CBaseSound >::To(node, &CBaseSound::SetVolume, &CBaseSound::GetVolume, to, time, speed);
-}
-
-CAction* ActionChangeVolumeBy(CBaseSound* node, float to, float time, float speed)
-{
-	return CActionParameterChange< float, CBaseSound >::By(node, &CBaseSound::SetVolume, &CBaseSound::GetVolume, to, time, speed);
-}
-#endif
+//#if (OS != OS_MAC)
+//CAction* ActionChangeVolume(CBaseSound* node, float from, float to, float time, float speed)
+//{
+//	return new CActionParameterChange< float, CBaseSound >(node, &CBaseSound::SetVolume, from, to, time, speed);
+//}
+//
+//CAction* ActionChangeVolumeTo(CBaseSound* node, float to, float time, float speed)
+//{
+//	return CActionParameterChange< float, CBaseSound >::To(node, &CBaseSound::SetVolume, &CBaseSound::GetVolume, to, time, speed);
+//}
+//
+//CAction* ActionChangeVolumeBy(CBaseSound* node, float to, float time, float speed)
+//{
+//	return CActionParameterChange< float, CBaseSound >::By(node, &CBaseSound::SetVolume, &CBaseSound::GetVolume, to, time, speed);
+//}
+//#endif

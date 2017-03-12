@@ -10,6 +10,7 @@
 #include <emscripten.h>
 #include <emscripten/html5.h>
 #include <string.h>
+#include "CDirector.h"
 
 const char *emscripten_result_to_string(EMSCRIPTEN_RESULT result) {
     if (result == EMSCRIPTEN_RESULT_SUCCESS) return "EMSCRIPTEN_RESULT_SUCCESS";
@@ -33,6 +34,7 @@ EM_BOOL mouse_down_callback(int eventType, const EmscriptenMouseEvent *e, void *
         MouseHandler* mHandler = (MouseHandler*)userData;
         mHandler->SetCanvasPos(e->canvasX, e->canvasY);
         mHandler->SetState(MouseHandler::eMS_down);
+        CDirector::GetDirector().TouchBegin(1, vec2(e->canvasX, e->canvasY));
     }
     
     return 1;
@@ -45,6 +47,7 @@ EM_BOOL mouse_up_callback(int eventType, const EmscriptenMouseEvent *e, void *us
         MouseHandler* mHandler = (MouseHandler*)userData;
         mHandler->SetCanvasPos(e->canvasX, e->canvasY);
         mHandler->SetState(MouseHandler::eMS_up);
+        CDirector::GetDirector().TouchEnd(1, vec2(e->canvasX, e->canvasY));
     }
     
     return 1;
@@ -56,7 +59,10 @@ EM_BOOL mouse_move_callback(int eventType, const EmscriptenMouseEvent *e, void *
     {
         MouseHandler* mHandler = (MouseHandler*)userData;
         if (mHandler->GetState() == MouseHandler::eMS_down)
+        {
             mHandler->SetCanvasPos(e->canvasX, e->canvasY);
+            CDirector::GetDirector().TouchMove(1, vec2(e->canvasX, e->canvasY));
+        }
     }
     
     return 1;

@@ -18,6 +18,8 @@
 
 class CActionMngr;
 class CNode;
+class CShaderManager;
+class MouseHandler;
 
 class CDirector
 {
@@ -40,6 +42,7 @@ public:
     void			SetScreenSize(vec2 size);
     
     CNode*          GetRooot() { return m_root; }
+    const vec2&     GetCanvasSize() const { return m_canvasSize; }
     
     void DeleteNode(CNode* node);
     
@@ -49,6 +52,8 @@ private:
     
 private:
     CActionMngr*        m_actionMngr;
+    CShaderManager*     m_shaderMngr;
+    MouseHandler*       m_mouseHandler;
     
     CNode*              m_root;
     std::set<CNode*>    m_nodesToDelete;

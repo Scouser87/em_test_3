@@ -19,6 +19,8 @@
 #include "algebra3.h"
 #include "Actions/CAction.h"
 #include "CNode.h"
+#include "ShaderManager.hpp"
+#include "MouseHandler.hpp"
 
 CDirector* CDirector::s_director = NULL;
 
@@ -27,6 +29,8 @@ CDirector::CDirector()
 {
     m_root = new CNode;
     m_actionMngr = new CActionMngr;
+    m_shaderMngr = new CShaderManager;
+    m_mouseHandler = new MouseHandler;
     CDirector::s_director = this;
 }
 
@@ -65,11 +69,13 @@ void CDirector::Init(float x, float y)
     attr.minorVersion = 0;
     EMSCRIPTEN_WEBGL_CONTEXT_HANDLE ctx = emscripten_webgl_create_context(0, &attr);
     emscripten_webgl_make_context_current(ctx);
-//    
-//    LoadShaders();
-//    LoadShaderParams();
-//    
-//    m_mouseHandler = new MouseHandler;
+    
+    glEnable(GL_TEXTURE_2D);
+    glEnable(GL_BLEND);
+    
+    m_shaderMngr->Init(x, y);
+    m_shaderMngr->LoadShaders();
+    m_shaderMngr->SetActiveShader("DefaultTexture");
 }
 
 static std::queue<STouchData> s_actionTouches;
@@ -77,20 +83,25 @@ static bool s_isResetTouches = false;
 
 void CDirector::Update()
 {
+    glClearColor(0.5,0.5,0.5,1);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     
     float dt = CalculateDT();
     
-    ETochType type = (ETochType)s_actionTouches.front().type;
-    if(s_isResetTouches)
-        type = ettCancel;
-    vec2& pos = s_actionTouches.front().pos;
-
-    pos.y = m_canvasSize.y - pos.y;
-
-//    pos = CCamera::GetCamera().ConvertTouchToWorldCoord(pos);
-    m_root->TouchProcess(type, s_actionTouches.front().ID, pos, false);
-    s_actionTouches.pop();
+    while (!s_actionTouches.empty())
+    {
+        ETochType type = (ETochType)s_actionTouches.front().type;
+        if(s_isResetTouches)
+            type = ettCancel;
+        vec2& pos = s_actionTouches.front().pos;
+        
+        pos.y = m_canvasSize.y - pos.y;
+        
+        m_root->TouchProcess(type, s_actionTouches.front().ID, pos, false);
+        s_actionTouches.pop();
+        
+    }
+    s_isResetTouches = false;
     
     m_root->Simulate(dt);
     m_actionMngr->Update(dt);
@@ -103,32 +114,35 @@ void CDirector::Update()
 
 void CDirector::TouchBegin(intptr_t ID, vec2 pos)
 {
-    
+    s_actionTouches.push(STouchData(ID, ettBegin, pos));
+//    LOG("TouchBegin %f %f", pos.x, pos.y);
 }
 
 void CDirector::TouchMove(intptr_t ID, vec2 pos)
 {
-    
+    s_actionTouches.push(STouchData(ID, ettMove, pos));
+//    LOG("TouchMove %f %f", pos.x, pos.y);
 }
 
 void CDirector::TouchEnd(intptr_t ID, vec2 pos)
 {
-    
+    s_actionTouches.push(STouchData(ID, ettEnd, pos));
+//    LOG("TouchEnd %f %f", pos.x, pos.y);
 }
 
 void CDirector::TouchCancel(intptr_t ID, vec2 pos)
 {
-    
+    s_actionTouches.push(STouchData(ID, ettCancel, pos));
 }
 
 void CDirector::ResetTouches()
-{
-    
+{    
+    s_isResetTouches = true;
 }
 
 void CDirector::SetScreenSize(vec2 size)
 {
-    
+    m_canvasSize = size;
 }
 
 void CDirector::DeleteNode(CNode* node)

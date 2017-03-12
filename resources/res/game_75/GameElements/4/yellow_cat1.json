@@ -1,0 +1,453 @@
+{"frames": [
+
+{
+	"filename": "Panther_00000.jpg",
+	"frame": {"x":0,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00001.jpg",
+	"frame": {"x":0,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00002.jpg",
+	"frame": {"x":155,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00003.jpg",
+	"frame": {"x":0,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00004.jpg",
+	"frame": {"x":155,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00005.jpg",
+	"frame": {"x":310,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00006.jpg",
+	"frame": {"x":0,"y":366,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00007.jpg",
+	"frame": {"x":155,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00008.jpg",
+	"frame": {"x":310,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00009.jpg",
+	"frame": {"x":465,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00010.jpg",
+	"frame": {"x":0,"y":488,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00011.jpg",
+	"frame": {"x":155,"y":366,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00012.jpg",
+	"frame": {"x":310,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00013.jpg",
+	"frame": {"x":465,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00014.jpg",
+	"frame": {"x":620,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00015.jpg",
+	"frame": {"x":0,"y":610,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00016.jpg",
+	"frame": {"x":155,"y":488,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00017.jpg",
+	"frame": {"x":310,"y":366,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00018.jpg",
+	"frame": {"x":465,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00019.jpg",
+	"frame": {"x":620,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00020.jpg",
+	"frame": {"x":775,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00021.jpg",
+	"frame": {"x":0,"y":732,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00022.jpg",
+	"frame": {"x":155,"y":610,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00023.jpg",
+	"frame": {"x":310,"y":488,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00024.jpg",
+	"frame": {"x":465,"y":366,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00025.jpg",
+	"frame": {"x":620,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00026.jpg",
+	"frame": {"x":775,"y":122,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00027.jpg",
+	"frame": {"x":0,"y":854,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00028.jpg",
+	"frame": {"x":155,"y":732,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00029.jpg",
+	"frame": {"x":310,"y":610,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00030.jpg",
+	"frame": {"x":465,"y":488,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00031.jpg",
+	"frame": {"x":620,"y":366,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00032.jpg",
+	"frame": {"x":775,"y":244,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00033.jpg",
+	"frame": {"x":155,"y":854,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00034.jpg",
+	"frame": {"x":310,"y":732,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00035.jpg",
+	"frame": {"x":465,"y":610,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00036.jpg",
+	"frame": {"x":620,"y":488,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00037.jpg",
+	"frame": {"x":775,"y":366,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00038.jpg",
+	"frame": {"x":310,"y":854,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00039.jpg",
+	"frame": {"x":465,"y":732,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00040.jpg",
+	"frame": {"x":620,"y":610,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00041.jpg",
+	"frame": {"x":775,"y":488,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00042.jpg",
+	"frame": {"x":465,"y":854,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00043.jpg",
+	"frame": {"x":620,"y":732,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00044.jpg",
+	"frame": {"x":775,"y":610,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00045.jpg",
+	"frame": {"x":620,"y":854,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00046.jpg",
+	"frame": {"x":775,"y":732,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00047.jpg",
+	"frame": {"x":775,"y":854,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Panther_00056.jpg",
+	"frame": {"x":0,"y":0,"w":153,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":120},
+	"sourceSize": {"w":153,"h":120},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "yellow_cat1.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:196bb948c3a7c0f39db37ce0991fe41a:a7ea5201619ae285038d3552dbc21277:5a50f4fd2abed0e0f79985f382068e24$"
+}
+}

@@ -1,0 +1,131 @@
+<elementsId scatterId="1" bonusId="-1" wildId="2"/>
+<ignore>
+    <roll ID="4">
+        <element ID="1"/>
+    </roll>
+    <roll ID="5">
+        <element ID="1"/>
+    </roll>
+    <roll ID="6">
+        <element ID="1"/>
+    </roll>
+    <roll ID="4">
+        <element ID="14"/>
+    </roll>
+    <roll ID="5">
+        <element ID="14"/>
+    </roll>
+    <roll ID="6">
+        <element ID="14"/>
+    </roll>
+    <roll ID="1">
+        <element ID="2"/>
+    </roll>
+</ignore>
+<elements gameName="Queenofthecats">
+    <element ID="1">
+        <normal name="girl" type="image" shift="0,-60"/>
+        <active name="girl" type="texturePacker" shift="0,-61"/>
+    </element>
+    <element ID="2">
+        <normal name="wild" type="image" shift="0,0"/>
+        <active name="ForAll/wild" type="texturePacker" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="3">
+        <normal name="lion" type="image" shift="0,0"/>
+        <active name="lion" type="texturePacker" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="4">
+        <normal name="yellow_cat" type="image" shift="0,0"/>
+        <active name="yellow_cat" type="texturePacker" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="5">
+        <normal name="green_cat" type="image" shift="0,0"/>
+        <active name="green_cat" type="texturePacker" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="6">
+        <normal name="blue_cat" type="image" shift="0,0"/>
+        <active name="blue_cat" type="texturePacker" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="7">
+        <normal name="paw" type="image" shift="0,0"/>
+        <active name="paw" type="texturePacker" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="8">
+        <normal name="A" type="image" shift="0,0"/>
+        <active name="A" type="image" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="9">
+        <normal name="K" type="image" shift="0,0"/>
+        <active name="K" type="image" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="10">
+        <normal name="Q" type="image" shift="0,0"/>
+        <active name="Q" type="image" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="11">
+        <normal name="J" type="image" shift="0,0"/>
+        <active name="J" type="image" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="12">
+        <normal name="10" type="image" shift="0,0"/>
+        <active name="10" type="image" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="13">
+        <normal name="9" type="image" shift="0,0"/>
+        <active name="9" type="image" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="14">
+        <normal name="girl" type="image" shift="0,60"/>
+    </element>
+    <element ID="15">
+        <normal name="diam" type="image" shift="0,0"/>
+        <active name="diam" type="texturePacker" shift="0,0" cycle="0"/>
+        <activeStabilizate name="ForAll/wild" type="texturePacker" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="16">
+        <normal name="lion" type="image" shift="0,0"/>
+        <active name="lion" type="texturePacker" shift="0,0" speed="24"/>
+        <activeStabilizate name="ForAll/wild" type="texturePacker" shift="0,0"/>
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="17">
+        <normal name="yellow_cat" type="image" shift="0,0"/>
+        <active name="yellow_cat" type="texturePacker" shift="0,0" speed="24"/>
+        <activeStabilizate name="ForAll/wild" type="texturePacker" shift="0,0" />
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="18">
+        <normal name="green_cat" type="image" shift="0,0"/>
+        <active name="green_cat" type="texturePacker" shift="0,0" speed="24"/>
+        <activeStabilizate name="ForAll/wild" type="texturePacker" shift="0,0" />
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="19">
+        <normal name="blue_cat" type="image" shift="0,0"/>
+        <active name="blue_cat" type="texturePacker" shift="0,0" speed="24"/>
+        <activeStabilizate name="ForAll/wild" type="texturePacker" shift="0,0" />
+        <highlight type="animation" shift="2,0" scale="0.95,0.75"/>
+    </element>
+    <element ID="20">
+        <normal name="girl" type="image" shift="0,-60"/>
+    </element>
+    <element ID="21">
+        <normal name="girl" type="image" shift="0,60"/>
+    </element>
+
+
+</elements>

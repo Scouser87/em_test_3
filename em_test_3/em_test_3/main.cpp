@@ -11,6 +11,7 @@
 #include <unistd.h>
 #include <emscripten.h>
 #include "CDirector.h"
+#include "GameScene.hpp"
 
 void MainLoop()
 {
@@ -23,6 +24,8 @@ int main(int argc, const char * argv[]) {
 //    scene->Start();
     
     CDirector::GetDirector().Init(1024, 768);
+    CGameScene* gs = new CGameScene;
+    CDirector::GetDirector().GetRooot()->AddChild(gs);    
 
     emscripten_set_main_loop(MainLoop, 60, 0);
     
