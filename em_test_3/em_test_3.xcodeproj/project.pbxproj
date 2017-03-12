@@ -169,6 +169,11 @@
 		853BA9EF1E71935400F8504D /* Trace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853BA9ED1E71935400F8504D /* Trace.cpp */; };
 		853BA9F21E719A9700F8504D /* esUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853BA9F01E719A9700F8504D /* esUtils.cpp */; };
 		85580AA71E72A95600E8AF12 /* MouseHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85580AA51E72A95600E8AF12 /* MouseHandler.cpp */; };
+		8563897C1E75475A00CDE5BA /* CNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8563897A1E75475A00CDE5BA /* CNode.cpp */; };
+		8563897F1E7547A200CDE5BA /* EventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8563897D1E7547A200CDE5BA /* EventHandler.cpp */; };
+		856389821E75496C00CDE5BA /* CDirector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389801E75496C00CDE5BA /* CDirector.cpp */; };
+		856389981E7549C100CDE5BA /* CAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389841E7549C100CDE5BA /* CAction.cpp */; };
+		856389A51E7554A600CDE5BA /* ShaderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856389A31E7554A600CDE5BA /* ShaderManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -427,6 +432,17 @@
 		853BA9F11E719A9700F8504D /* esUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = esUtils.hpp; sourceTree = "<group>"; };
 		85580AA51E72A95600E8AF12 /* MouseHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MouseHandler.cpp; sourceTree = "<group>"; };
 		85580AA61E72A95600E8AF12 /* MouseHandler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MouseHandler.hpp; sourceTree = "<group>"; };
+		8563897A1E75475A00CDE5BA /* CNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CNode.cpp; sourceTree = "<group>"; };
+		8563897B1E75475A00CDE5BA /* CNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNode.h; sourceTree = "<group>"; };
+		8563897D1E7547A200CDE5BA /* EventHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EventHandler.cpp; sourceTree = "<group>"; };
+		8563897E1E7547A200CDE5BA /* EventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventHandler.h; sourceTree = "<group>"; };
+		856389801E75496C00CDE5BA /* CDirector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CDirector.cpp; sourceTree = "<group>"; };
+		856389811E75496C00CDE5BA /* CDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDirector.h; sourceTree = "<group>"; };
+		856389841E7549C100CDE5BA /* CAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAction.cpp; sourceTree = "<group>"; };
+		856389851E7549C100CDE5BA /* CAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAction.h; sourceTree = "<group>"; };
+		856389A21E754AA400CDE5BA /* sColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sColor.h; sourceTree = "<group>"; };
+		856389A31E7554A600CDE5BA /* ShaderManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderManager.cpp; sourceTree = "<group>"; };
+		856389A41E7554A600CDE5BA /* ShaderManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ShaderManager.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -462,6 +478,7 @@
 		853BA8471E717E9800F8504D /* em_test_3 */ = {
 			isa = PBXGroup;
 			children = (
+				856389791E75471D00CDE5BA /* Ananas */,
 				853BA8521E71858200F8504D /* Common */,
 				853BA8481E717E9800F8504D /* main.cpp */,
 				853BA84F1E71807F00F8504D /* Scene.cpp */,
@@ -876,6 +893,32 @@
 			path = zlib;
 			sourceTree = "<group>";
 		};
+		856389791E75471D00CDE5BA /* Ananas */ = {
+			isa = PBXGroup;
+			children = (
+				856389831E7549C100CDE5BA /* Actions */,
+				856389801E75496C00CDE5BA /* CDirector.cpp */,
+				856389811E75496C00CDE5BA /* CDirector.h */,
+				8563897D1E7547A200CDE5BA /* EventHandler.cpp */,
+				8563897E1E7547A200CDE5BA /* EventHandler.h */,
+				8563897A1E75475A00CDE5BA /* CNode.cpp */,
+				8563897B1E75475A00CDE5BA /* CNode.h */,
+				856389A21E754AA400CDE5BA /* sColor.h */,
+				856389A31E7554A600CDE5BA /* ShaderManager.cpp */,
+				856389A41E7554A600CDE5BA /* ShaderManager.hpp */,
+			);
+			path = Ananas;
+			sourceTree = "<group>";
+		};
+		856389831E7549C100CDE5BA /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				856389841E7549C100CDE5BA /* CAction.cpp */,
+				856389851E7549C100CDE5BA /* CAction.h */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -940,6 +983,7 @@
 				853BA9961E71858300F8504D /* dec_sse2.c in Sources */,
 				853BA9A21E71858300F8504D /* upsampling_sse2.c in Sources */,
 				853BA9A51E71858300F8504D /* yuv_sse2.c in Sources */,
+				8563897F1E7547A200CDE5BA /* EventHandler.cpp in Sources */,
 				853BA9571E71858300F8504D /* jcdctmgr.c in Sources */,
 				853BA9621E71858300F8504D /* jdapimin.c in Sources */,
 				853BA9CF1E71858300F8504D /* pngmem.c in Sources */,
@@ -958,6 +1002,7 @@
 				853BA9751E71858300F8504D /* jfdctfst.c in Sources */,
 				853BA9861E71858300F8504D /* frame.c in Sources */,
 				853BA9CC1E71858300F8504D /* png.c in Sources */,
+				856389981E7549C100CDE5BA /* CAction.cpp in Sources */,
 				853BA9EF1E71935400F8504D /* Trace.cpp in Sources */,
 				853BA9C11E71858300F8504D /* bit_writer.c in Sources */,
 				853BA9631E71858300F8504D /* jdapistd.c in Sources */,
@@ -970,6 +1015,7 @@
 				853BA9E91E71858300F8504D /* zutil.c in Sources */,
 				853BA9D71E71858300F8504D /* pngwio.c in Sources */,
 				853BA9CE1E71858300F8504D /* pngget.c in Sources */,
+				856389A51E7554A600CDE5BA /* ShaderManager.cpp in Sources */,
 				853BA98D1E71858300F8504D /* webp.c in Sources */,
 				853BA96A1E71858300F8504D /* jdhuff.c in Sources */,
 				853BA9601E71858300F8504D /* jcsample.c in Sources */,
@@ -1031,6 +1077,7 @@
 				853BA95E1E71858300F8504D /* jcparam.c in Sources */,
 				853BA9671E71858300F8504D /* jdcoefct.c in Sources */,
 				853BA95A1E71858300F8504D /* jcmainct.c in Sources */,
+				8563897C1E75475A00CDE5BA /* CNode.cpp in Sources */,
 				853BA9951E71858300F8504D /* dec_neon.c in Sources */,
 				853BA9991E71858300F8504D /* enc_mips32.c in Sources */,
 				853BA96F1E71858300F8504D /* jdmerge.c in Sources */,
@@ -1091,6 +1138,7 @@
 				853BA9C71E71858300F8504D /* quant_levels_dec.c in Sources */,
 				853BA9B51E71858300F8504D /* syntax.c in Sources */,
 				853BA9A71E71858300F8504D /* analysis.c in Sources */,
+				856389821E75496C00CDE5BA /* CDirector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1184,6 +1232,7 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../../emsdk_portable/emscripten/1.35.0/system/include/emscripten\"",
 					"\"$(SRCROOT)/../../../emsdk_portable/emscripten/1.35.0/system/include\"",
+					"\"$(SRCROOT)/em_test_3/Ananas\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1201,6 +1250,7 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../../emsdk_portable/emscripten/1.35.0/system/include/emscripten\"",
 					"\"$(SRCROOT)/../../../emsdk_portable/emscripten/1.35.0/system/include\"",
+					"\"$(SRCROOT)/em_test_3/Ananas\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

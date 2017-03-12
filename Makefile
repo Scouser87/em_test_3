@@ -3,7 +3,9 @@ CFLAGS=-Wall
 INCDIR=-I./em_test_3/em_test_3 \
 -I./em_test_3/em_test_3/Common \
 -I./em_test_3/em_test_3/Common/imagelib/png \
--I./em_test_3/em_test_3/Common/imagelib/zlib
+-I./em_test_3/em_test_3/Common/imagelib/zlib \
+-I./em_test_3/em_test_3/Ananas \
+-I./em_test_3/em_test_3/Ananas/Actions
 
 PNG_INCDIR=-I./em_test_3/em_test_3/Common/imagelib/zlib
 
@@ -44,14 +46,19 @@ SOURCES=./em_test_3/em_test_3/Scene.cpp \
 ./em_test_3/em_test_3/Common/FileLoader.cpp \
 ./em_test_3/em_test_3/Common/Trace.cpp \
 ./em_test_3/em_test_3/Common/esUtils.cpp \
-./em_test_3/em_test_3/Common/MouseHandler.cpp
+./em_test_3/em_test_3/Common/MouseHandler.cpp \
+./em_test_3/em_test_3/Ananas/CDirector.cpp \
+./em_test_3/em_test_3/Ananas/CNode.cpp \
+./em_test_3/em_test_3/Ananas/EventHandler.cpp \
+./em_test_3/em_test_3/Ananas/Actions/CAction.cpp \
+./em_test_3/em_test_3/Ananas/ShaderManager.cpp
 
 MAIN_SRC=./em_test_3/em_test_3/main.cpp
 
 all: ./output/main.bc
 
 ./output/main.bc: zlib.o png.o ${SOURCES} ${MAIN_SRC}
-	$(CXX) $(CFLAGS) ${SOURCES} ${MAIN_SRC} ./output/png.o ./output/zlib.o -o $@ ${INCDIR}
+	$(CXX) $(CFLAGS) ${SOURCES} ${MAIN_SRC} ./output/png.o ./output/zlib.o -o $@ ${INCDIR} -std=c++11
 
 png.o: ${PNG_SOURCES}
 	$(CC) -Wall ${PNG_SOURCES} -o ./output/png.o ${PNG_INCDIR}
